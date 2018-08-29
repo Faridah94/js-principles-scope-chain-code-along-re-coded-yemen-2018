@@ -16,11 +16,11 @@ function setBestCustomer(){
 }
 
 function overWriteBestCustomer(newFavorite){
-  bestCustomer = newFavorite
+  bestCustomer = newFavorite;
 }
 
 function congratulateCustomer(){
-  return `congrats ${favoriteCustomer}`
+  return `congrats ${favoriteCustomer}`;
 }
 
 function attemptTwoFavoriteCustomers(){
